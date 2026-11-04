@@ -1,0 +1,23 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "Projeto 1",
+  "license": "UNLICENSED",
+  "author": "Allan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.4",
+    "tailwindcss": "^4.3.4"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  },
+  "allowScripts": {
+    "@tailwindcss/cli@4.3.4": true
+  }
+}
